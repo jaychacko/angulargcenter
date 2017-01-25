@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+
+
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+
+<body  >
+<div id="wraper"  >
+    <div id="header">
+
+        <img src="../images/guitar1.png" id="topscreenshot" >
+        <input type="text" id="topinput" placeholder="Enter keywords, Item # or Catalog #">
+
+    </div>
+
+    <div id="mainpage" ng-controller="myctrl as ctrl">
+
+    <div id="navbardiv">
+
+<span id="allnavbars" ng-mouseenter="reveal()" ng-mouseleave="notreveal()">
+
+    <a ui-sref ="home"><button class="navbarbuttons">Home</button></a>
+     <a ui-sref ="products"><button class="navbarbuttons">Product</button></a>
+        <a ui-sref ="usedgear"><button class="navbarbuttons">Used Gear</button></a>
+          <a ui-sref ="platinum"><button class="navbarbuttons">Platinum</button></a>
+             <a ui-sref ="vintage"><button class="navbarbuttons">Vintage</button></a>
+                <a ui-sref ="outlet"> <button class="navbarbuttons">Outlet</button></a>
+                    <a ui-sref ="gcpro"> <button class="navbarbuttons">GC Pro</button></a>
+                        <a ui-sref ="lessons"><button class="navbarbuttons">Lessons</button></a>
+                            <a ui-sref ="repairs"><button class="navbarbuttons">Repairs</button></a>
+                                <a ui-sref ="rental"><button class="navbarbuttons">Rentals</button></a>
+
+      </span>
+
+
+    </div>
+
+    <div id="undernavbargrey">
+      <span id="dropdownspan" ng-show="showsub" >
+
+       <a href="#" class="anchorsss">Guitars</a>
+       <a href="#" class="anchorsss">Bass</a>
+       <a href="#" class="anchorsss">Amps Effects</a>
+       <a href="#" class="anchorsss">Drums</a>
+       <a href="#" class="anchorsss">Recording</a>
+       <a href="#" class="anchorsss">Software</a>
+       <a href="#" class="anchorsss">keyboards MIDI</a>
+       <a href="#" class="anchorsss">Mics Wireless</a>
+       <a href="#" class="anchorsss">Live Sound</a>
+       <a href="#" class="anchorsss">DJ</a>
+       <a href="#" class="anchorsss">Lighting</a>
+       <a href="#" class="anchorsss">Accessories</a>
+       <a href="#" class="anchorsss">Band Orchestra</a>
+       </span>
+
+    </div>
+
+    <div id="greyline"></div>
+
+    <!--<div id="leftpadamdiv"> <img src="../images/left.png" id="leftpadam" ng-click="slider(-1)" ></div>-->
+
+    <!--<div id="rightpadamdiv"><img src="../images/right.png" id="rightpadam" ng-click="slider(1)" ></div>-->
+
+    </div>
+
+
+<div ui-view>
+
+
+
+</div>
+
+
+
+
+
+    <div id="therestdiv">
+        <img src="../images/therest.png" id="therestpic">
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+<script src = "../script/module.js"></script>
+<script src="../script/route.js"></script>
+
+<script src="../script/controller.js"></script>
+
+
+<script src="../script/cdirective.js"></script>
+
+
+
+
+</body>
+</html>

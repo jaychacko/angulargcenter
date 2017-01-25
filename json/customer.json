@@ -1,0 +1,28 @@
+{
+  "customers":
+  [
+  
+      {
+	   "name":"Jay chacko",
+	   "age":"25",
+	   "zipcode":"77489"
+	  
+	  },
+      
+	  {
+	   "name":"Anu Jay",
+	   "age":"23",
+	   "zipcode":"77099"
+	  
+	  },
+	  
+	  {
+	   "name":"Ashley",
+	   "age":"24",
+	   "zipcode":"77477"
+	  
+	  }
+  
+  ]
+
+}

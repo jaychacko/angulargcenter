@@ -1,0 +1,224 @@
+body{
+
+    background-color: #f0f0f5;
+}
+
+guitargoes{
+    width: 50px;
+    height: 50px;
+
+}
+#wraper{
+
+    height: 1000px;
+    width:3840px;
+    margin-top: -0.5%;
+    margin-left: -8px;
+
+
+}
+
+#header{
+    position: relative;
+    top: 0%;
+    left:0%;
+    height: 200px;
+    width: 100%;
+
+
+}
+#topscreenshot{
+
+    width: 100%;
+    height: 200px;
+
+
+}
+#topinput{
+
+    position: relative;
+    top: -106px;
+    left: 1394px;
+    height: 78px;
+    width: 561px;
+    border-radius: 7px;
+    font-size: 23px;
+
+}
+
+#navbardiv{
+
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+.navbarbuttons{
+
+    height: 99px;
+    width: 168.5px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border:0px;
+}
+#allnavbars{
+    position: relative;
+    left: 29.8%;
+}
+
+#mainstuff{
+
+    height: 553px;
+    width:1452px;
+    margin: 0 auto;
+    margin-top: -4.5%;
+
+}
+
+#therestpic{
+    position: relative;
+    top: 0%;
+    left: 0% ;
+    width:1452px;
+    margin: 0 auto;
+    margin-top: 0.5%;
+
+
+}
+
+#therestdiv{
+    width:1452px;
+    margin: 0 auto;
+    margin-top: 0%;
+
+
+}
+
+#undernavbargrey{
+    position: relative;
+    top: 0%;
+    left: 0%;
+
+    height: 70px;
+    width:3840px;
+    background-color: #f0f0f5;
+}
+
+#dropdownspan{
+    position: relative;
+    top: 27%;
+    left:30%;
+
+
+}
+.anchorsss{
+
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right:15px;
+
+
+}
+
+
+
+.navbarbuttons:hover {
+
+    background-color: #f0f0f5;
+    color: black;
+
+}
+
+#greyline{
+
+    width:3840px;
+    border:1px solid grey;
+}
+
+#imgdiv{
+    height: 553px;
+    width: 770px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+
+}
+
+#imagesgoeshere
+{
+    height: inherit;
+    width:inherit;
+}
+#alldetails{
+
+    height: 559px;
+    width: 682px;
+    position: relative;
+    top: -100%;
+    left: 53%;
+    background-color: white;
+
+
+}
+
+#leftpadamdiv{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20%;
+    left: 28.3%;
+
+}
+
+#rightpadamdiv{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 9%;
+    left: 69%;
+
+}
+
+#leftpadam{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 306%;
+    left: 0%;
+}
+#rightpadam{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 201%;
+    left: 0%;
+}
+
+#bigprice{
+
+    font-size: 100px;
+    margin-left: 150px;
+}
+#stockavai{
+    font-size: 20px;
+    font-weight: 1000px;
+    color: deeppink;
+}
+#descriptioncss{
+
+    font-size: 20px;
+    border: 5px solid grey;
+    margin-left: 15px;
+    border-radius:  10px;
+    padding-left: 5px;
+
+}
+#customerrev{
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 15px;
+}
